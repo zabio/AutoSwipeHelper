@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- 悬浮窗背景圆角 -->
+    <LinearLayout
+        android:id="@+id/floating_container"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/floating_bg_circle"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_floating_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⏸"
+            android:textColor="@color/floating_text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_floating_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自动"
+            android:textColor="@color/floating_text"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

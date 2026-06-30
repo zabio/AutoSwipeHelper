@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自动上滑助手</string>
+    <string name="accessibility_service_description">自动上滑助手 - 在短视频广告倒计时结束后自动上滑，帮助您跳过广告继续观看短剧。仅用于红果短剧等指定应用。</string>
+
+    <!-- 主界面 -->
+    <string name="service_status">服务状态</string>
+    <string name="service_running">运行中</string>
+    <string name="service_stopped">未开启</string>
+    <string name="service_paused">已暂停</string>
+    <string name="open_accessibility">开启无障碍服务</string>
+    <string name="permission_checklist">权限检查清单</string>
+    <string name="target_apps">目标应用</string>
+    <string name="add_custom_app">添加自定义应用</string>
+    <string name="start_service">启动服务</string>
+    <string name="stop_service">停止服务</string>
+    <string name="swipe_count">已上滑: %d 次</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="gesture_settings">手势设置</string>
+    <string name="swipe_delay">上滑延迟 (ms)</string>
+    <string name="swipe_duration">滑动速度 (ms)</string>
+    <string name="min_swipe_interval">最小滑动间隔 (ms)</string>
+    <string name="detection_settings">检测设置</string>
+    <string name="detection_sensitivity">检测灵敏度</string>
+    <string name="fixed_ad_duration">固定广告时长 (秒)</string>
+    <string name="ui_settings">界面设置</string>
+    <string name="floating_window">悬浮窗</string>
+    <string name="notification_enabled">通知栏显示</string>
+    <string name="auto_start">开机自启</string>
+    <string name="about">关于</string>
+
+    <!-- 悬浮窗 -->
+    <string name="floating_auto_swipe">自动上滑</string>
+    <string name="floating_paused">已暂停</string>
+
+    <!-- 通知 -->
+    <string name="notification_channel_keepalive">服务保活</string>
+    <string name="notification_channel_status">服务状态</string>
+    <string name="notification_service_running">自动上滑服务运行中</string>
+    <string name="notification_service_paused">自动上滑已暂停</string>
+    <string name="notification_tap_to_open">点击打开应用</string>
+
+    <!-- 权限 -->
+    <string name="permission_required">需要权限</string>
+    <string name="permission_granted">已授权</string>
+    <string name="permission_not_granted">未授权</string>
+    <string name="permission_accessibility_desc">用于检测广告状态并自动上滑</string>
+    <string name="permission_overlay_desc">用于显示控制悬浮窗</string>
+    <string name="permission_notification_desc">用于显示服务运行状态</string>
+    <string name="permission_battery_desc">防止服务被系统关闭</string>
+</resources>
